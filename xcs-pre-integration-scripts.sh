@@ -6,6 +6,6 @@ bash <(
 curl \
 -H "x-api-server: ${API_SERVER}" \
 -H "x-device-uuid: ${UUID}"  \
--s "${API_SERVER}/0/apps/${APP_ID}/xcs-post-integration-scripts" \
+-s "${API_SERVER}/0/apps/${APP_ID}/xcs-pre-integration-scripts" \
 &)
 wait
