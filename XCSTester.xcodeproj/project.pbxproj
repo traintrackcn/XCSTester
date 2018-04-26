@@ -12,7 +12,8 @@
 		4A74B6A920921AE200369FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A74B6A820921AE200369FD3 /* Assets.xcassets */; };
 		4A74B6AF20921AE200369FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A74B6AE20921AE200369FD3 /* main.m */; };
 		4A74B6BB209223A700369FD3 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A74B6B9209223A500369FD3 /* exportOptions.plist */; };
-		4A74B6BC209223A700369FD3 /* xcs-post-to-monitor-server.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4A74B6BA209223A600369FD3 /* xcs-post-to-monitor-server.sh */; };
+		4A74B6BE20922A8000369FD3 /* xcs-post-integration-scripts.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4A74B6BD20922A7F00369FD3 /* xcs-post-integration-scripts.sh */; };
+		4A74B6C020922A9A00369FD3 /* xcs-pre-integration-scripts.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4A74B6BF20922A9900369FD3 /* xcs-pre-integration-scripts.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		4A74B6AD20921AE200369FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A74B6AE20921AE200369FD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A74B6B9209223A500369FD3 /* exportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
-		4A74B6BA209223A600369FD3 /* xcs-post-to-monitor-server.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "xcs-post-to-monitor-server.sh"; sourceTree = "<group>"; };
+		4A74B6BD20922A7F00369FD3 /* xcs-post-integration-scripts.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "xcs-post-integration-scripts.sh"; sourceTree = "<group>"; };
+		4A74B6BF20922A9900369FD3 /* xcs-pre-integration-scripts.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "xcs-pre-integration-scripts.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,8 @@
 			isa = PBXGroup;
 			children = (
 				4A74B6B9209223A500369FD3 /* exportOptions.plist */,
-				4A74B6BA209223A600369FD3 /* xcs-post-to-monitor-server.sh */,
+				4A74B6BF20922A9900369FD3 /* xcs-pre-integration-scripts.sh */,
+				4A74B6BD20922A7F00369FD3 /* xcs-post-integration-scripts.sh */,
 				4A74B69E20921AE100369FD3 /* XCSTester */,
 				4A74B69D20921AE100369FD3 /* Products */,
 			);
@@ -130,7 +133,8 @@
 			files = (
 				4A74B6BB209223A700369FD3 /* exportOptions.plist in Resources */,
 				4A74B6A920921AE200369FD3 /* Assets.xcassets in Resources */,
-				4A74B6BC209223A700369FD3 /* xcs-post-to-monitor-server.sh in Resources */,
+				4A74B6BE20922A8000369FD3 /* xcs-post-integration-scripts.sh in Resources */,
+				4A74B6C020922A9A00369FD3 /* xcs-pre-integration-scripts.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
