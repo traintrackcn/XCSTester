@@ -84,7 +84,6 @@
 				4A74B69820921AE100369FD3 /* Sources */,
 				4A74B69920921AE100369FD3 /* Frameworks */,
 				4A74B69A20921AE100369FD3 /* Resources */,
-				4A74B6C120923C3C00369FD3 /* Apply Build Hash as Build Number */,
 			);
 			buildRules = (
 			);
@@ -140,23 +139,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4A74B6C120923C3C00369FD3 /* Apply Build Hash as Build Number */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Apply Build Hash as Build Number";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd ${PROJECT_DIR} &\nwait\n\nCURRENT_HASH=$(git rev-parse --short HEAD)\necho \"CURRENT_HASH -> ${CURRENT_HASH}\" &\nwait\n\n\nxcrun agvtool new-version \"10\" &\nwait\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A74B69820921AE100369FD3 /* Sources */ = {
