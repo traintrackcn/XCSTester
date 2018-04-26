@@ -1,0 +1,60 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "1.111.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    
+    
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+
+  lane :devXCSTester do
+
+    # more information: https://codesigning.guide
+    match(
+          username: "oliver.wang@abovegem.com",
+          team_id: "LWV4GYPE98",  
+          app_identifier: "com.abovegem.app.ios.XCSTester",
+          type: "development",
+          git_url: "https://github.com/traintrackcn/testAboveGEM",
+          force_for_new_devices: true
+          )
+
+  end
+
+
+  after_all do |lane|
+    # This block is called, only if the executed lan
+    # slack(e was successful
+    #   message: "Successfully deployed new App Update."
+
+    # )
+  end
+
+  error do |lane, exception|
+    # slack(
+    #   message: exception.message,
+    #   success: false
+    # )
+  end
+end
