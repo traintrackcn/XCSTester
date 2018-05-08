@@ -1,4 +1,4 @@
-API_SERVER="https://traintrackcn.asuscomm.com"
+API_SERVER="https://traintrackcn.asuscomm.com:4443"
 UUID="ED8CE088-F013-4C4E-A9CE-1507905DFEB0"
 APP_ID="com.abovegem.app.ios.XCSTester"
 ICON_FILE="${XCS_PRIMARY_REPO_DIR}/XCSTester/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@3x.png"
