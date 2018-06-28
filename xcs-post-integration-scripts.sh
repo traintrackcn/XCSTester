@@ -1,5 +1,5 @@
 API_SERVER="http://localhost:8080"
-AUTH_ID="n8-app-ios-dev"
+AUTH_ID="xcstester-app-ios-dev"
 TRACKER_TOKEN="123213"
 
 bash <(
