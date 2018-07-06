@@ -1,4 +1,4 @@
-API_SERVER="http://localhost:8080"
+API_SERVER="http://litmonitor.asuscomm.com"
 AUTH_ID="xcstester-app-ios-dev"
 TRACKER_TOKEN="123213"
 
