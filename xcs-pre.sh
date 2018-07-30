@@ -1,5 +1,5 @@
 API_SERVER="http://litmonitor.asuscomm.com"
-AUTH_ID="xcstester-app-ios-dev"
+AUTH_ID="monitor-playground-app-ios-dev"
 
 bash <(
 curl \
