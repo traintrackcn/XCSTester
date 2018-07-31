@@ -1,4 +1,4 @@
-API_SERVER="http://litmonitor.asuscomm.com"
+API_SERVER="http://litmonitor.asuscomm.com:8888"
 AUTH_ID="monitor-playground-app-ios-dev"
 
 bash <(
