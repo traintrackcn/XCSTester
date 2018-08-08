@@ -1,5 +1,5 @@
 API_SERVER="http://litmonitor.asuscomm.com:8888"
-AUTH_ID="monitor-playground-app-ios-dev"
+AUTH_ID="dev-monitor-playground-app-ios"
 
 bash <(
 curl \
